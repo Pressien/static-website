@@ -1,0 +1,29 @@
+
+body.positive-page {
+    margin: 0;
+    padding: 0;
+    background-image: url(''); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.icon-image {
+    position: absolute;
+    left: 20px; /* Position on the left side */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+    width: 80px; /* Adjust icon size as needed */
+    cursor: pointer;
+}

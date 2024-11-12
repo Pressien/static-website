@@ -1,0 +1,81 @@
+/* style.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('../static%20website/%27%27') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+}
+
+.container {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+    text-align: left;
+}
+
+.title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin-bottom: 0.5rem;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.left-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-background {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
